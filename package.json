@@ -1,0 +1,29 @@
+{
+  "name": "coveralls-ci-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover --dir coverage node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catdad-experiments/coveralls-ci-test.git"
+  },
+  "keywords": [],
+  "author": "Kiril Vatev <vatev.1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catdad-experiments/coveralls-ci-test/issues"
+  },
+  "homepage": "https://github.com/catdad-experiments/coveralls-ci-test#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nyc": "^10.1.2"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
