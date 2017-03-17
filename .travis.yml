@@ -11,3 +11,4 @@ script:
 after_script:
   - npm run report-coveralls
   - node -e "require('coveralls').getOptions(console.log)"
+  - node -e "console.log(process.env)"

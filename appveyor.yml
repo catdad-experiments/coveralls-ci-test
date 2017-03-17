@@ -26,6 +26,7 @@ test_script:
 after_test:
   - npm run report-coveralls
   - node -e "require('coveralls').getOptions(console.log)"
+  - node -e "console.log(process.env)"
 
 # Don't actually build.
 # No idea what this does, but it was in the example file
