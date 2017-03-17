@@ -24,8 +24,8 @@ test_script:
 
 # scripts to run after tests
 after_test:
-#  - npm run report-coveralls
-#  - node -e "require('coveralls').getOptions(console.log)"
+  - npm run report-coveralls
+  - node -e "require('coveralls').getOptions(console.log)"
 
 # Don't actually build.
 # No idea what this does, but it was in the example file

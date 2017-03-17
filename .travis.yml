@@ -9,5 +9,5 @@ script:
   - npm test
 
 after_script:
-#  - npm run report-coveralls
-#  - node -e "require('coveralls').getOptions(console.log)"
+  - npm run report-coveralls
+  - node -e "require('coveralls').getOptions(console.log)"
