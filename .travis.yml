@@ -1,0 +1,13 @@
+language: node_js
+
+node_js:
+  - '7.2'
+  - '6.9'
+
+script:
+  # run tests with the version of node from the matrix
+  - npm test
+
+after_script:
+#  - npm run report-coveralls
+#  - node -e "require('coveralls').getOptions(console.log)"
