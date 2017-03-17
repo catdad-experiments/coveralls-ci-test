@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha",
-    "report-coveralls": "coveralls < coverage/lcov.info"
+    "report-coveralls": "coveralls --verbose < coverage/lcov.info"
   },
   "repository": {
     "type": "git",
