@@ -1,6 +1,6 @@
 /* jshint node: true, mocha: true, esversion: 6 */
 
-var expect = require('expect');
+var expect = require('chai').expect;
 
 var lib = require('../');
 
