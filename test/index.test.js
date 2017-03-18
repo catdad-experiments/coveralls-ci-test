@@ -20,6 +20,8 @@ describe('[index]', () => {
   });
 
   describe('#three', () => {
-    it('return false');
+    it('return false', () => {
+      expect(lib.three()).to.equal(false);
+    });
   });
 });
