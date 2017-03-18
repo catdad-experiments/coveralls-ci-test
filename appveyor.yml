@@ -25,6 +25,7 @@ test_script:
 # scripts to run after tests
 after_test:
   - npm run report-coveralls
+  - npm run report-stdout
   - node -e "require('coveralls').getOptions(console.log)"
   - node -e "console.log(process.env)"
 
