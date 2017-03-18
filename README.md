@@ -8,3 +8,8 @@
 
 [travis.svg]: https://travis-ci.org/catdad-experiments/coveralls-ci-test.svg?branch=master
 [travis.link]: https://travis-ci.org/catdad-experiments/coveralls-ci-test
+
+## Some relevant links
+
+AppVeyor env variables: https://www.appveyor.com/docs/environment-variables/
+Travis env variables: https://docs.travis-ci.com/user/environment-variables/#Default-Environment-Variables
