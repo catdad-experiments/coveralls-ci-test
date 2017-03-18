@@ -1,0 +1,13 @@
+dependencies:
+  pre:
+    - case $CIRCLE_NODE_INDEX in 0) NODE_VERSION="7.2" ;; 1) NODE_VERSION="6.9" ;; esac; nvm install $NODE_VERSION && nvm alias default $NODE_VERSION:
+        parallel: true
+
+test:
+  override:
+    - npm test
+  post:
+    - npm run report-coveralls
+    - npm run report-stdout
+    - node -e "require('coveralls').getOptions(console.log)"
+    - node -e "console.log(process.env)"
