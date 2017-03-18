@@ -12,7 +12,9 @@ describe('[index]', () => {
   });
 
   describe('#two', () => {
-    it('sometimes returns true');
+    it('sometimes returns true', () => {
+      expect(lib.two(1)).to.equal(true);
+    });
 
     it('sometimes returns false');
   });
