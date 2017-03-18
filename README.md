@@ -11,5 +11,5 @@
 
 ## Some relevant links
 
-AppVeyor env variables: https://www.appveyor.com/docs/environment-variables/
-Travis env variables: https://docs.travis-ci.com/user/environment-variables/#Default-Environment-Variables
+* [AppVeyor env variables](https://www.appveyor.com/docs/environment-variables/)
+* [Travis env variables](https://docs.travis-ci.com/user/environment-variables/#Default-Environment-Variables)
