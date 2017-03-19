@@ -16,4 +16,8 @@ function three() {
   return false;
 }
 
+function four() {
+  return 4;
+}
+
 module.exports = { one, two, three };
