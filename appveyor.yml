@@ -28,7 +28,7 @@ after_test:
   - npm run report-stdout
   - node -e "require('coveralls').getOptions(console.log)"
   - node -e "console.log(process.env)"
-  - npm run report-codecov -- --file "coverage\lcov.info"
+  - npm run report-codecov
 
 # Don't actually build.
 # No idea what this does, but it was in the example file
