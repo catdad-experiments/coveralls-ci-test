@@ -7,7 +7,7 @@
     "test": "nyc mocha",
     "report-coveralls": "coveralls --verbose < coverage/lcov.info",
     "report-stdout": "coveralls --verbose --stdout < coverage/lcov.info",
-    "report-codecov": "codecov --file coverage/lcov.info"
+    "report-codecov": "codecov"
   },
   "repository": {
     "type": "git",
