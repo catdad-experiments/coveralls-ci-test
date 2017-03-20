@@ -24,4 +24,10 @@ describe('[index]', () => {
       expect(lib.three()).to.equal(false);
     });
   });
+
+  describe('#platform', () => {
+    it('does a thing', () => {
+      expect(lib.platform()).to.not.equal(undefined);
+    });
+  });
 });
