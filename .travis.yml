@@ -13,3 +13,4 @@ after_script:
   - npm run report-stdout
   - node -e "require('coveralls').getOptions(console.log)"
   - node -e "console.log(process.env)"
+  - npm run report-codecov
