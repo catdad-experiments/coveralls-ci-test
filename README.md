@@ -2,7 +2,8 @@
 
 [![travis][travis.svg]][travis.link]
 [![appveyor][appveyor.svg]][appveyor.link]
-[![Test Coverage][3]][4]
+[![coveralls][3]][4]
+[![codecov][codecov.svg]][codecov.link]
 
 [travis.svg]: https://travis-ci.org/catdad-experiments/coveralls-ci-test.svg?branch=master
 [travis.link]: https://travis-ci.org/catdad-experiments/coveralls-ci-test
@@ -11,6 +12,9 @@
 
 [3]: https://img.shields.io/coveralls/catdad-experiments/coveralls-ci-test.svg
 [4]: https://coveralls.io/github/catdad-experiments/coveralls-ci-test?branch=master
+
+[codecov.svg]: https://codecov.io/gh/catdad-experiments/coveralls-ci-test/branch/master/graph/badge.svg
+[codecov.link]: https://codecov.io/gh/catdad-experiments/coveralls-ci-test
 
 ## Some relevant links
 
